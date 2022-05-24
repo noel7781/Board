@@ -3,10 +3,11 @@ package com.noel_maiego.board.entity;
 import javax.persistence.*;
 import java.util.List;
 
-@Entity
+@Entity(name = "posts")
 public class Post {
     @Id
     @GeneratedValue(strategy = GenerationType.IDENTITY)
+    @Column(name="post_id")
     private Long id;
 
     @Column(length = 255)
@@ -21,4 +22,5 @@ public class Post {
 
     @OneToMany(mappedBy = "post")
     private List<Comment> comments;
+
 }
