@@ -1,4 +1,4 @@
-package com.noel_maiego.board.entity;
+package com.noel.board.entity;
 
 import javax.persistence.*;
 

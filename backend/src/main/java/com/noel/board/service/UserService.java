@@ -1,4 +1,4 @@
-package com.noel_maiego.board.service;
+package com.noel.board.service;
 
 public class UserService {
 }

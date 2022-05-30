@@ -1,4 +1,4 @@
-package com.noel_maiego.board;
+package com.noel.board;
 
 import org.junit.jupiter.api.Test;
 import org.springframework.boot.test.context.SpringBootTest;

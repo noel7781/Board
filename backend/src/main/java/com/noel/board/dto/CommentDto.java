@@ -1,4 +1,4 @@
-package com.noel_maiego.board.dto;
+package com.noel.board.dto;
 
 import lombok.Data;
 

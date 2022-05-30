@@ -1,4 +1,4 @@
-package com.noel_maiego.board.controller;
+package com.noel.board.controller;
 
 import org.springframework.stereotype.Controller;
 
