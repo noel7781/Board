@@ -6,7 +6,7 @@ import javax.persistence.*;
 public class Comment {
     @Id
     @GeneratedValue(strategy = GenerationType.IDENTITY)
-    @Column(name="comment_id")
+    @Column(name="COMMENT_ID")
     private Long id;
 
     private Long parent_id;
@@ -15,11 +15,11 @@ public class Comment {
     private String content;
 
     @ManyToOne
-    @JoinColumn(name = "user_id")
+    @JoinColumn(name = "USER_ID")
     private User author;
 
     @ManyToOne
-    @JoinColumn(name = "post_id")
+    @JoinColumn(name = "POST_ID")
     private Post post;
 
 }

@@ -34,7 +34,7 @@ function Sidebar() {
         {categories.map((category, index) => {
           return (
             <NavLink
-              exact
+              exact='true'
               style={{
                 color: 'gray',
                 textDecoration: 'none',
@@ -42,7 +42,7 @@ function Sidebar() {
               }}
               to={category.path}
               key={index}
-              activeStyle={{ color: 'black' }}
+              activestyle={{ color: 'black' }}
             >
               <SidebarItem category={category} />
             </NavLink>

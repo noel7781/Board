@@ -7,7 +7,7 @@ import { List, Stack } from '@mui/material';
 import { Divider } from '@mui/material';
 import Korea from './components/caterogires/Korea';
 import Board from './components/Board';
-import Austrailia from './components/caterogires/Austrailia';
+import Australia from './components/caterogires/Australia';
 import Asia from './components/caterogires/Asia';
 import Europe from './components/caterogires/Europe';
 import NA from './components/caterogires/NA';
@@ -30,7 +30,7 @@ const App = () => {
           <Route path='/europe' element={<Board kind={Europe} />} />
           <Route path='/north-america' element={<Board kind={NA} />} />
           <Route path='/south-america' element={<Board kind={SA} />} />
-          <Route path='/austrailia' element={<Board kind={Austrailia} />} />
+          <Route path='/australia' element={<Board kind={Australia} />} />
           <Route path='/africa-me' element={<Board kind={Africa} />} />
         </Routes>
       </Stack>
